@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar bg-light fixed-top">
+  <nav class="navbar bg-white fixed-top py-0 px-2">
     <div class="navbar-text ms-auto d-flex">
       <button
         class="btn btn-sm btn-outline-success"
@@ -40,6 +40,11 @@
               >
             </div>
           </div>
+          <router-link
+            class="btn btn-sm btn-outline-info text-dark float-end me-2"
+            to="/checkout"
+            >Checkout</router-link
+          >
         </div>
       </div>
     </div>
